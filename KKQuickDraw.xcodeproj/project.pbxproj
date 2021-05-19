@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		600D2F1D26525AA100EB6BCE /* HansenCCC in Resources */ = {isa = PBXBuildFile; fileRef = 600D2F1C26525AA100EB6BCE /* HansenCCC */; };
+		601CDDBB26521D65008109FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 601CDDBA26521D65008109FC /* AppDelegate.m */; };
+		601CDDC126521D65008109FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601CDDC026521D65008109FC /* ViewController.m */; };
+		601CDDC426521D65008109FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601CDDC226521D65008109FC /* Main.storyboard */; };
+		601CDDC726521D65008109FC /* KKQuickDraw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 601CDDC526521D65008109FC /* KKQuickDraw.xcdatamodeld */; };
+		601CDDC926521D6E008109FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 601CDDC826521D6E008109FC /* Assets.xcassets */; };
+		601CDDCC26521D6E008109FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601CDDCA26521D6E008109FC /* LaunchScreen.storyboard */; };
+		601CDDCF26521D6E008109FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 601CDDCE26521D6E008109FC /* main.m */; };
+		601CDDDC26523C96008109FC /* KKWKURLSchemeHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 601CDDDB26523C96008109FC /* KKWKURLSchemeHandler.m */; };
+		601CDE02265251E0008109FC /* KKUIWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601CDE01265251DF008109FC /* KKUIWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		600D2F1C26525AA100EB6BCE /* HansenCCC */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HansenCCC; sourceTree = "<group>"; };
+		601CDDB626521D65008109FC /* KKQuickDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKQuickDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		601CDDB926521D65008109FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		601CDDBA26521D65008109FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		601CDDBF26521D65008109FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		601CDDC026521D65008109FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		601CDDC326521D65008109FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		601CDDC626521D65008109FC /* KKQuickDraw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KKQuickDraw.xcdatamodel; sourceTree = "<group>"; };
+		601CDDC826521D6E008109FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		601CDDCB26521D6E008109FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		601CDDCD26521D6E008109FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601CDDCE26521D6E008109FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		601CDDDA26523C96008109FC /* KKWKURLSchemeHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKWKURLSchemeHandler.h; sourceTree = "<group>"; };
+		601CDDDB26523C96008109FC /* KKWKURLSchemeHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKWKURLSchemeHandler.m; sourceTree = "<group>"; };
+		601CDE00265251DF008109FC /* KKUIWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKUIWebViewController.h; sourceTree = "<group>"; };
+		601CDE01265251DF008109FC /* KKUIWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKUIWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601CDDB326521D65008109FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601CDDAD26521D65008109FC = {
+			isa = PBXGroup;
+			children = (
+				601CDDB826521D65008109FC /* KKQuickDraw */,
+				601CDDB726521D65008109FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		601CDDB726521D65008109FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601CDDB626521D65008109FC /* KKQuickDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601CDDB826521D65008109FC /* KKQuickDraw */ = {
+			isa = PBXGroup;
+			children = (
+				600D2F1C26525AA100EB6BCE /* HansenCCC */,
+				601CDDD926523C40008109FC /* QuickDraw */,
+				601CDDFB26524CFB008109FC /* WK */,
+				601CDDB926521D65008109FC /* AppDelegate.h */,
+				601CDDBA26521D65008109FC /* AppDelegate.m */,
+				601CDDBF26521D65008109FC /* ViewController.h */,
+				601CDDC026521D65008109FC /* ViewController.m */,
+				601CDDC226521D65008109FC /* Main.storyboard */,
+				601CDDC826521D6E008109FC /* Assets.xcassets */,
+				601CDDCA26521D6E008109FC /* LaunchScreen.storyboard */,
+				601CDDCD26521D6E008109FC /* Info.plist */,
+				601CDDCE26521D6E008109FC /* main.m */,
+				601CDDC526521D65008109FC /* KKQuickDraw.xcdatamodeld */,
+			);
+			path = KKQuickDraw;
+			sourceTree = "<group>";
+		};
+		601CDDD926523C40008109FC /* QuickDraw */ = {
+			isa = PBXGroup;
+			children = (
+				601CDDDA26523C96008109FC /* KKWKURLSchemeHandler.h */,
+				601CDDDB26523C96008109FC /* KKWKURLSchemeHandler.m */,
+			);
+			path = QuickDraw;
+			sourceTree = "<group>";
+		};
+		601CDDFB26524CFB008109FC /* WK */ = {
+			isa = PBXGroup;
+			children = (
+				601CDE00265251DF008109FC /* KKUIWebViewController.h */,
+				601CDE01265251DF008109FC /* KKUIWebViewController.m */,
+			);
+			path = WK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		601CDDB526521D65008109FC /* KKQuickDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601CDDD226521D6E008109FC /* Build configuration list for PBXNativeTarget "KKQuickDraw" */;
+			buildPhases = (
+				601CDDB226521D65008109FC /* Sources */,
+				601CDDB326521D65008109FC /* Frameworks */,
+				601CDDB426521D65008109FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKQuickDraw;
+			productName = KKQuickDraw;
+			productReference = 601CDDB626521D65008109FC /* KKQuickDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		601CDDAE26521D65008109FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KK;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "力王工作室";
+				TargetAttributes = {
+					601CDDB526521D65008109FC = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 601CDDB126521D65008109FC /* Build configuration list for PBXProject "KKQuickDraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 601CDDAD26521D65008109FC;
+			productRefGroup = 601CDDB726521D65008109FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				601CDDB526521D65008109FC /* KKQuickDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		601CDDB426521D65008109FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601CDDCC26521D6E008109FC /* LaunchScreen.storyboard in Resources */,
+				600D2F1D26525AA100EB6BCE /* HansenCCC in Resources */,
+				601CDDC926521D6E008109FC /* Assets.xcassets in Resources */,
+				601CDDC426521D65008109FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		601CDDB226521D65008109FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601CDDCF26521D6E008109FC /* main.m in Sources */,
+				601CDDC126521D65008109FC /* ViewController.m in Sources */,
+				601CDDC726521D65008109FC /* KKQuickDraw.xcdatamodeld in Sources */,
+				601CDE02265251E0008109FC /* KKUIWebViewController.m in Sources */,
+				601CDDDC26523C96008109FC /* KKWKURLSchemeHandler.m in Sources */,
+				601CDDBB26521D65008109FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		601CDDC226521D65008109FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601CDDC326521D65008109FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		601CDDCA26521D6E008109FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601CDDCB26521D6E008109FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		601CDDD026521D6E008109FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		601CDDD126521D6E008109FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		601CDDD326521D6E008109FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB5KM6Y5DQ;
+				INFOPLIST_FILE = KKQuickDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qmkkx.quickdraw.KKQuickDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		601CDDD426521D6E008109FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TB5KM6Y5DQ;
+				INFOPLIST_FILE = KKQuickDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qmkkx.quickdraw.KKQuickDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		601CDDB126521D65008109FC /* Build configuration list for PBXProject "KKQuickDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601CDDD026521D6E008109FC /* Debug */,
+				601CDDD126521D6E008109FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601CDDD226521D6E008109FC /* Build configuration list for PBXNativeTarget "KKQuickDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601CDDD326521D6E008109FC /* Debug */,
+				601CDDD426521D6E008109FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		601CDDC526521D65008109FC /* KKQuickDraw.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				601CDDC626521D65008109FC /* KKQuickDraw.xcdatamodel */,
+			);
+			currentVersion = 601CDDC626521D65008109FC /* KKQuickDraw.xcdatamodel */;
+			path = KKQuickDraw.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 601CDDAE26521D65008109FC /* Project object */;
+}
