@@ -1,5 +1,11 @@
 
 # KKQuickDraw
+
+[![Build Status](https://img.shields.io/badge/Github-KKQuickDraw-brightgreen.svg)](https://github.com/HansenCCC/KKQuickDraw)
+[![Build Status](https://img.shields.io/badge/platform-ios-orange.svg)](https://github.com/HansenCCC/KKQuickDraw)
+[![Build Status](https://img.shields.io/badge/HansenCCC-Github-blue.svg)](https://github.com/HansenCCC)
+[![Build Status](https://img.shields.io/badge/HansenCCC-知乎-lightgrey.svg)](https://www.zhihu.com/people/EngCCC)
+
 ## iOS通过WKWebView、WKURLSchemeHandler协议实现HTML H5秒开，优化HTML加载速度。（拦截请求替换资源）
 
 <img src="http://i2.tiimg.com/737869/ec381b1edbfe6de3.png" width="300" alt="demo页面"/><br/>
