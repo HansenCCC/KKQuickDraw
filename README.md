@@ -38,11 +38,14 @@
 > **问题一**
 我最开始尝试使用的是NSURLProtocol协议，去拦截所有的http+https请求。在WKWebView中确实可以实现资源拦截和替换，但是个别HTML文件，在使用POST请求时，发现body参数丢失，获取不到。尝试过把body缓存到求请求头header里面，效果没有那么好。而且使用NSURLProtocol，涉及到私有API，项目是需要提审上架的，所以放弃这种方式。
 
-# 推荐参考
+------------------
+
+## 推荐参考
 [WKWebview秒开的实践及踩坑之路][1]
 
 [iOS app秒开H5优化探索][2]
 
+------------------
 
 ## 我
 #### Created by 程恒盛 on 2021/05/19.
@@ -51,7 +54,25 @@
 #### copy请标明出处，感谢，谢谢观看
 
 
+------------------
+
+## 你还对这些感兴趣吗
+
+
+1、[iOS实现HTML H5秒开、拦截请求替换资源、优化HTML加载速度][5]
+
+2、[超级签名中最重要的一步：跳过双重认证，自动化脚本添加udid并下载描述文件（证书和bundleid不存在时，会自动创建）][6]
+
+3、[脚本自动化批量修改ipa的icon、启动图、APP名称等(demo只修改icon，其他原理一样)、重签ipa][7]
+
+4、[QMKKXProduct iOS技术分享][8]
+
+
   [1]: https://juejin.cn/post/6861778055178747911
   [2]: https://juejin.cn/post/6844903809521549320
   [3]: http://i2.tiimg.com/737869/5b55723ab7172298.png
   [4]: http://i2.tiimg.com/737869/ec381b1edbfe6de3.png
+  [5]: https://github.com/HansenCCC/KKQuickDraw
+  [6]: https://github.com/HansenCCC/HSAddUdids
+  [7]: https://github.com/HansenCCC/HSIPAReplaceIcon
+  [8]: https://github.com/HansenCCC/QMKKXProduct
