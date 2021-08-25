@@ -8,7 +8,7 @@
 
 ## iOS通过WKWebView、WKURLSchemeHandler协议实现HTML H5秒开，优化HTML加载速度。（拦截请求替换资源）
 
-<img src="http://i2.tiimg.com/737869/ec381b1edbfe6de3.png" width="300" alt="demo页面"/><br/>
+<img src="https://pic1.zhimg.com/80/v2-f74308903ee858dbded344567f598e88.jpg" width="300" alt="demo页面"/><br/>
 
 ### 一、需求
 ##### HTML页面渲染出来的时间过长，影响用户体验。实现秒开H5功能。
@@ -31,7 +31,7 @@
 ### 五、如何使用
 ##### demo只供参考，demo里面本地只缓存了HTML，还可以缓存js、css、img等资源进行资源替换，从而实现秒开，测试的话，可以在断网的情况下打开网页。代码如用于项目时，开发过程中碰到问题可以和H5工程师协调。
 
-<img src="http://i2.tiimg.com/737869/5b55723ab7172298.png" width="300" alt="可以缓存html、css、img、js等文件"/><br/>
+<img src="https://pic1.zhimg.com/80/v2-bb521652bdb14b0bc7c3751dd25cef40.jpg" width="300" alt="可以缓存html、css、img、js等文件"/><br/>
 
 ### 六、我碰到的问题
 
